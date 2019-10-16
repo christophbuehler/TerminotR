@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+
+section.detail {
+    transform: translate(100%, 0);
+    transition: transform .2s ease;
+}
+
+section.detail.active {
+    transform: translate(0, 0);
+}
+
+.term-preview {
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.term-preview>div {
+    height: 60px;
+    line-height: 60px;
+}
+
+.term-preview>div:nth-child(1) {
+    flex: 1 1;
+    padding: 0 16px;
+}
+
+.term-preview>div:nth-child(2) {
+    flex: 0 0 60px;
+    text-align: center;
+}
+
+.detail .name {
+    line-height: 22px;
+}
+
+.detail .description {
+    line-height: 22px;
+    padding: 16px;
+}
+
+.detail .close-btn {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+}

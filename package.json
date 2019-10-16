@@ -1,0 +1,27 @@
+{
+  "name": "terminotr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "pushstate-server -d ./ -f index.html -p 4200"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophbuehler/TerminotR.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christophbuehler/TerminotR/issues"
+  },
+  "homepage": "https://github.com/christophbuehler/TerminotR#readme",
+  "devDependencies": {
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.3"
+  }
+}

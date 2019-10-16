@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TerminotR</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="dist/terminotr.min.js"></script>
+    <script>
+    const app = window.app = terminotr();
+    window.onload = () => app.load();
+    </script>
+</head>
+<body>
+    <section class="start">
+        <div class="previews">
+            
+        </div>
+    </section>
+    <section class="detail">
+        <div class="close-btn" onclick="app.closeDetail()"><</div>
+        <div class="name"></div>
+        <div class="description"></div>
+    </section>
+</body>
+</html>
