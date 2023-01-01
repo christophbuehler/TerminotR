@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/christophbuehler/TerminotR#readme",
   "devDependencies": {
-    "ts-loader": "^6.2.0",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.6.4"
   },
   "dependencies": {
